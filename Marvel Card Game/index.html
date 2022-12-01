@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>A Marvel Game</title>
+</head>
+<body>
+    <main>
+        <section class="navBar">
+            <img src="assets/Marvel_Logo.png" alt="Marvel_Logo" id="headerImage">
+            <h1> The card game </h1>
+        </section>
+
+        <section class="gameWrapper" id="gameWrapper">
+            <section class="CardStackWrapper cardStackPlayer" id="cardStackPlayer">
+                <h1>Player Card</h1>
+                <div class="card playerCard">
+                    <div class="overlay">                        
+                    </div>
+                   <div class="cardImage"><img " id="playerCardImage"></div>
+                   <div class="cardDetails" id="playerCardDetails">
+                  
+                   </div>
+                </div>
+
+            </section>
+            <div class="gameControls">
+                <h3>Fight</h3>
+                <button class="controlButton" id="Intelligence" onclick="checkIntelligence()">Intelligence</button>
+                <button class="controlButton" id="Strength" onclick="checkStrength()">Strength</button>
+                <button class="controlButton" id="Speed" onclick="checkSpeed()">Speed</button>
+                <button class="controlButton" id="Durability" onclick="checkDurability()">Durability</button>
+                <button class="controlButton" id="Power" onclick="checkPower()">Power</button>
+                <button class="controlButton" id="Combat" onclick="checkCombat()">Combat</button>
+                <button class="controlButton" id="Total" onclick="checkTotal()">Overall</button>
+            </div>            
+            <section class="CardStackWrapper cardStackComputer" id="cardStackComputer">
+                <h1>Computer Card</h1>
+                <div class="card computerCard">
+                    <div class="overlay">
+                    </div>
+                    <div class="cardImage" ><img src="assets/BlackPanther.png" id="computerCardImage"></div>
+                    <div class="cardDetails" id="computerCardDetails">
+                        
+                    </div>
+                </div>
+            
+            </section>
+        </section>
+        
+   <section class="resultWrapper" id="resultWrapper">
+         <div id="resultText"></div>
+         <button class="controlButton" id="resetButton">Next Turn</button>
+   </section>
+      
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

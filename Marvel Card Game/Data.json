@@ -1,0 +1,222 @@
+[
+  {
+    "Name": "Ant-Man",
+    "Race": "Human",
+    "Intelligence": 100,
+    "Strength": 10,
+    "Speed": 23,
+    "Durability": 28,
+    "Power": 32,
+    "Combat": 32,
+    "Total": 225
+  },
+  {
+    "Name": "Black Panther",
+    "Race": "Human",
+    "Intelligence": 88,
+    "Strength": 16,
+    "Speed": 30,
+    "Durability": 60,
+    "Power": 41,
+    "Combat": 100,
+    "Total": 335
+  },
+  {
+    "Name": "Black Widow",
+    "Race": "Human",
+    "Intelligence": 75,
+    "Strength": 13,
+    "Speed": 27,
+    "Durability": 32,
+    "Power": 32,
+    "Combat": 100,
+    "Total": 279
+  },
+  {
+    "Name": "Captain America",
+    "Race": "Human",
+    "Intelligence": 63,
+    "Strength": 19,
+    "Speed": 35,
+    "Durability": 56,
+    "Power": 46,
+    "Combat": 100,
+    "Total": 319
+  },
+  {
+    "Name": "Captain Marvel",
+    "Race": "Human-Kree",
+    "Intelligence": 100,
+    "Strength": 100,
+    "Speed": 67,
+    "Durability": 95,
+    "Power": 62,
+    "Combat": 56,
+    "Total": 480
+  },
+  {
+    "Name": "Deadpool",
+    "Race": "Mutant",
+    "Intelligence": 50,
+    "Strength": 15,
+    "Speed": 30,
+    "Durability": 100,
+    "Power": 100,
+    "Combat": 100,
+    "Total": 395
+  },
+  {
+    "Name": "Doctor Strange",
+    "Race": "Human",
+    "Intelligence": 100,
+    "Strength": 10,
+    "Speed": 12,
+    "Durability": 84,
+    "Power": 100,
+    "Combat": 60,
+    "Total": 366
+  },
+  {
+    "Name": "Falcon",
+    "Race": "Human",
+    "Intelligence": 38,
+    "Strength": 13,
+    "Speed": 50,
+    "Durability": 28,
+    "Power": 22,
+    "Combat": 64,
+    "Total": 215
+  },
+  {
+    "Name": "Hawkeye",
+    "Race": "Human",
+    "Intelligence": 50,
+    "Strength": 12,
+    "Speed": 23,
+    "Durability": 14,
+    "Power": 26,
+    "Combat": 80,
+    "Total": 205
+  },
+  {
+    "Name": "Hulk",
+    "Race": "Human / Radiation",
+    "Intelligence": 88,
+    "Strength": 100,
+    "Speed": 47,
+    "Durability": 100,
+    "Power": 41,
+    "Combat": 85,
+    "Total": 461
+  },
+  {
+    "Name": "Iron Man",
+    "Race": "Human",
+    "Intelligence": 100,
+    "Strength": 85,
+    "Speed": 58,
+    "Durability": 85,
+    "Power": 100,
+    "Combat": 64,
+    "Total": 492
+  },
+  {
+    "Name": "Loki",
+    "Race": "Asgardian",
+    "Intelligence": 88,
+    "Strength": 57,
+    "Speed": 47,
+    "Durability": 85,
+    "Power": 85,
+    "Combat": 56,
+    "Total": 418
+  },
+  {
+    "Name": "Scarlet Witch",
+    "Race": "Mutant",
+    "Intelligence": 88,
+    "Strength": 10,
+    "Speed": 23,
+    "Durability": 42,
+    "Power": 67,
+    "Combat": 28,
+    "Total": 258
+  },
+  {
+    "Name": "Spider-Man",
+    "Race": "Human",
+    "Intelligence": 88,
+    "Strength": 55,
+    "Speed": 60,
+    "Durability": 74,
+    "Power": 58,
+    "Combat": 85,
+    "Total": 420
+  },
+  {
+    "Name": "Thanos",
+    "Race": "Eternal",
+    "Intelligence": 88,
+    "Strength": 100,
+    "Speed": 17,
+    "Durability": 100,
+    "Power": 100,
+    "Combat": 80,
+    "Total": 485
+  },
+  {
+    "Name": "Thor",
+    "Race": "Asgardian",
+    "Intelligence": 69,
+    "Strength": 100,
+    "Speed": 92,
+    "Durability": 100,
+    "Power": 100,
+    "Combat": 85,
+    "Total": 546
+  },
+  {
+    "Name": "Ultron",
+    "Race": "Android",
+    "Intelligence": 88,
+    "Strength": 83,
+    "Speed": 42,
+    "Durability": 100,
+    "Power": 100,
+    "Combat": 64,
+    "Total": 477
+  },
+  {
+    "Name": "War Machine",
+    "Race": "Human",
+    "Intelligence": 63,
+    "Strength": 80,
+    "Speed": 63,
+    "Durability": 100,
+    "Power": 100,
+    "Combat": 85,
+    "Total": 491
+  },
+  {
+    "Name": "Winter Soldier",
+    "Race": "Human",
+    "Intelligence": 56,
+    "Strength": 32,
+    "Speed": 35,
+    "Durability": 65,
+    "Power": 60,
+    "Combat": 84,
+    "Total": 332
+  },
+  {
+    "Name": "Wolverine",
+    "Race": "Mutant",
+    "Intelligence": 55,
+    "Strength": 32,
+    "Speed": 38,
+    "Durability": 100,
+    "Power": 44,
+    "Combat": 100,
+    "Total": 369
+  }
+]

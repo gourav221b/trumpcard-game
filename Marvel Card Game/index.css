@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@100;200;400;500;900&display=swap');
+@font-face {
+    font-family: 'Marvel';
+    src: url('assets/marvel\ 2.otf');
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+font-family: 'Poppins',sans-serif;
+
+}
+main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #151515;
+    color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* NAVBAR STYLES */
+.navBar
+{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh 0 ;
+}
+
+.navBar> h1
+{
+    font-family: 'Marvel', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#headerImage
+{
+    width: auto;
+    height: 100%;
+    margin: 2.5vh 0;
+}
+
+
+/* GAME WRAPPER STYLES  */
+.gameWrapper
+{
+    width: 90vw;
+    min-height: 60vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 0;
+}
+.CardStackWrapper
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+.CardStackWrapper h1
+{
+    margin-bottom: 10px;
+}
+
+
+.card
+{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    /* background: red; */
+    position: relative;
+    box-shadow: rgba(34, 34, 34, 0.25) 0px 25px 50px -12px;
+}
+
+.card>.cardImage,.overlay,.cardDetails
+{
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 1;
+}
+
+.overlay
+{
+    z-index: 2;
+    background: #f7243670;
+    top: 100%;
+    transition: 0.25s ease;
+}
+.computerCard .overlay
+{
+    background: #24aaf770;
+}
+.overlay.active,.characterStatsMainWrapper.active
+{
+    top: 0;
+}
+
+
+.card img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.playerCard:hover .overlay
+{
+    top: 0;
+}
+
+.cardDetails {
+   
+    z-index: 3;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 12px ;
+}
+
+
+.playerCard .characterStatsMainWrapper ,.computerCard .characterStatsMainWrapper
+{
+    margin-bottom: -48%;
+    transition: 0.35s ease;
+}
+
+.playerCard:hover .characterStatsMainWrapper,.characterStatsMainWrapper.activeStats {
+    margin-bottom: 0;
+}
+
+
+.characterName ,.characterRace
+{
+     text-transform: uppercase;
+     text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+            0px -4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.characterName
+{
+    font-size: 50px;font-family: 'Marvel', sans-serif;
+}
+
+.characterRace
+{
+    font-size: 15px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.characterStatsMainWrapper
+{
+    margin-top: 4%;
+    width: 100%;
+}
+.characterStatsWrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* CONTROLS */
+.gameControls {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 31px;
+    letter-spacing: 2px;
+
+}
+
+.controlButton {
+    width: 80%;
+    margin: 5px 0;
+    padding: 12px 10px;
+    background: #ed1d24;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.controlButton:hover {
+    background: #035b8e;
+}
+
+
+/*  RESULTS WRAPPER */
+.resultWrapper {
+display: none;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Marvel',sans-serif;
+   font-size: 51px;
+   text-transform: uppercase;
+}
+#resetButton
+{    
+    background: #0a9ee8;
+    
+}
+#resetButton:hover
+{
+    background-color: #fff;
+    color:#151515;
+    /* padding: 10px 0; */
+    font-size: 15px;
+}
+
+.activeResult
+{
+    display: flex;
+    animation: grow 1s linear;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes swipe {
+    0%
+    {
+        transition: rotate(45deg);
+    }
+    100%
+    {
+        transform: rotate(0);
+    }
+    
+}
